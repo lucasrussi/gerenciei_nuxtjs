@@ -1,0 +1,16 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+// The variables you want to modify
+// $font-size-root: 20px;
+html {
+    font-size: 90%;
+    @media only screen and (min-width: 600px) {
+        font-size: 94%;
+    }
+    @media only screen and (min-width: 1000px) {
+        font-size: 98%;
+    }
+    @media only screen and (min-width: 1200px) {
+        font-size: 100%;
+    }
+}
